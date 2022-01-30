@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Markazi+Text&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family:'Markazi-Text';
+}
+nav.navbar {
+    z-index: 15;
+}
+nav.navbar .navbar-brand img{
+    width: 80%;
+}
+nav.navbar .navbar-nav .nav-item a.nav-link{
+    font-size: 16px;
+    line-height: 40px;
+    color:black;
+    padding: 0 18px;
+    transition:all 0.5s ease ;
+}
+nav.navbar .navbar-nav .nav-item a.nav-link:hover{
+    background-color: white;
+    color:#FB4934;
+}
+nav.navbar.noTransparrent{
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+nav.navbar.noTransparrent .nav-item a.nav-link{
+ color: black;
+}
+nav.navbar.noTransparrent .navbar-nav .nav-item a.nav-link:hover{
+ color:white;
+ background-color: #FB4934;
+}
+nav.navbar.noTransparrent button.navbar-toggler{
+    color:#FB4934;
+}
+
+
+header {
+background-image:url(../images/pic1.jpg) ;
+background-size: cover;
+background-position: center center;
+min-height: 342px;
+
+}
+h1{
+    line-height: 700%;
+     font-size: 40px;
+     color: #FB4934;
+ }
+ main{
+     padding: 5%;
+ }
+#a{
+    border:none;
+
+    padding:15px 32px;
+    text-decoration:none;
+    display:imline-block;
+    margin:8px 6px;
+    cursor:pointer;
+    background-color:#FB4934;
+    width: 364px;
+    height: 249px;
+    
+    }
+    span{
+        color:white;
+        font-size:47px;
+        line-height: 56.41px;
+    font-style: normal;
+    text-align:center;
+    }
+footer .copyright {
+    background-color: #FB4934;
+}
+
+footer .copyright p {
+    font-size: 15px;
+    line-height: 78px;
+    color: black;
+    margin-bottom: 0;
+}
+  
+@media (max-width:765px)and(min-width:564px){
+    nav .navbar-brand img{
+        margin-bottom:220% ;
+     }
+     nav.navbar ul.navbar-nav{
+         margin-bottom:220% ;
+     }
+ }
+
+
+
+

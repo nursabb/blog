@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Markazi+Text&display=swap');
+
+*{
+  padding: 0;
+    margin: 0;
+}
+body{
+    font-family:'Markazi-Text';
+}
+
+nav.navbar {
+    z-index: 15;
+}
+nav.navbar .navbar-brand img{
+    width: 80%;
+}
+nav.navbar .navbar-nav .nav-item a.nav-link{
+    font-size: 16px;
+    line-height: 40px;
+    color:black;
+    padding: 0 18px;
+    transition:all 0.5s ease ;
+}
+nav.navbar .navbar-nav .nav-item a.nav-link:hover{
+    background-color: white;
+    color:#FB4934;
+}
+nav.navbar.noTransparrent{
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+nav.navbar.noTransparrent .nav-item a.nav-link{
+ color: black;
+}
+nav.navbar.noTransparrent .navbar-nav .nav-item a.nav-link:hover{
+ color:white;
+ background-color: #FB4934;
+}
+nav.navbar.noTransparrent button.navbar-toggler{
+    color:#FB4934;
+}
+
+header {
+background-image:url(../images/pic4.jpg) ;
+background-size: cover;
+background-position: center center;
+min-height: 581px;
+}
+
+.h1{
+font-size: 40px;
+line-height: 48.01px;
+}
+
+#f{
+    font-size:20px;
+    position:relative;
+    margin-top:160px;
+    line-height: 28px;
+    font-weight: 400px;
+    font-style: normal;
+    }
+   #b{
+    width: 160px;
+    height:50px;
+background: #FB4934;
+border-radius: 5px;
+color:#fff;
+font-size:20px;
+text-align: center;
+font-weight: 400px;
+font-style: normal;
+    }
+    .main{
+        padding: 3%;
+        margin-top: -5%;
+    }
+   
+ .card {
+    width: 364px;
+    height: 400px;
+ display: inline-block;
+ box-shadow: 0px 5px 11px rgba(85, 85, 85, 0.25);
+ border-radius: 5px;
+ padding: 1%;
+ margin-top: -9%;
+margin-bottom: 22%;
+  }
+ .card-img{
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+   }
+   .card-body .card-title{
+    text-align: right;
+    padding: 10px;
+   }
+   .card-body .card-text{
+    padding: 3px;
+    text-align: right;
+    padding-top: 10px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+   }
+
+footer .copyright {
+    background-color: #FB4934;
+}
+
+footer .copyright p {
+    font-size: 15px;
+    line-height: 78px;
+    color: black;
+    margin-bottom: 0;
+}
+
+
